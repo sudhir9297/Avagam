@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "dc9986e1f14d9fc89629",
+    "revision": "278a1534c90fe729aaa3",
     "url": "/Avagam/static/css/main.f1fe0bc4.chunk.css"
   },
   {
-    "revision": "dc9986e1f14d9fc89629",
-    "url": "/Avagam/static/js/main.dc9986e1.chunk.js"
+    "revision": "278a1534c90fe729aaa3",
+    "url": "/Avagam/static/js/main.278a1534.chunk.js"
   },
   {
     "revision": "096ddf2bfa842009d8ea",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/Avagam/static/js/runtime~main.a70c89fb.js"
   },
   {
-    "revision": "62b92ca10de2a4974a5c79aaed41008b",
+    "revision": "eb547947c9907e0e68f0756df7ce6a6e",
     "url": "/Avagam/index.html"
   }
 ];
