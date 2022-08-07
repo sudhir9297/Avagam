@@ -1,13 +1,13 @@
 {
   "main.css": "/Avagam/static/css/main.f1fe0bc4.chunk.css",
-  "main.js": "/Avagam/static/js/main.278a1534.chunk.js",
-  "main.js.map": "/Avagam/static/js/main.278a1534.chunk.js.map",
-  "static/js/1.096ddf2b.chunk.js": "/Avagam/static/js/1.096ddf2b.chunk.js",
-  "static/js/1.096ddf2b.chunk.js.map": "/Avagam/static/js/1.096ddf2b.chunk.js.map",
+  "main.js": "/Avagam/static/js/main.3de6f041.chunk.js",
+  "main.js.map": "/Avagam/static/js/main.3de6f041.chunk.js.map",
+  "static/js/1.fd916eb6.chunk.js": "/Avagam/static/js/1.fd916eb6.chunk.js",
+  "static/js/1.fd916eb6.chunk.js.map": "/Avagam/static/js/1.fd916eb6.chunk.js.map",
   "runtime~main.js": "/Avagam/static/js/runtime~main.a70c89fb.js",
   "runtime~main.js.map": "/Avagam/static/js/runtime~main.a70c89fb.js.map",
   "static/css/main.f1fe0bc4.chunk.css.map": "/Avagam/static/css/main.f1fe0bc4.chunk.css.map",
   "index.html": "/Avagam/index.html",
-  "precache-manifest.b0ff8b3918c7894a2201f8be9cdfadd3.js": "/Avagam/precache-manifest.b0ff8b3918c7894a2201f8be9cdfadd3.js",
+  "precache-manifest.5c788264f51d8482bd1bc6bf7ecf9423.js": "/Avagam/precache-manifest.5c788264f51d8482bd1bc6bf7ecf9423.js",
   "service-worker.js": "/Avagam/service-worker.js"
 }
