@@ -1,7 +1,13 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Carousel from "./PlantWorld";
 
 function Projects() {
-  return <div>Projects Inside</div>;
+  return (
+    <Routes>
+      <Route path="/plant-world" element={<Carousel />} />
+    </Routes>
+  );
 }
 
 export default Projects;

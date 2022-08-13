@@ -1,14 +1,13 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import { Link } from "react-router-dom";
 
 import { Homepage, Project } from "./pages";
 
-function App() {
+function App(props) {
   return (
     <div style={{ height: "100vh", widht: "100vw" }}>
-      <div>
+      {/* <div>
         <nav>
           <ul id="navigation">
             <li>
@@ -19,11 +18,11 @@ function App() {
             </li>
           </ul>
         </nav>
-      </div>
+      </div> */}
 
       <Routes>
         <Route exact path="/" element={<Homepage />} />
-        <Route exact path="/project" element={<Project />} />
+        <Route exact path="/project/*" element={<Project />} />
       </Routes>
     </div>
   );
