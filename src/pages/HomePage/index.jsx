@@ -7,13 +7,15 @@ function HomePage() {
     {
       id: 1,
       name: "Plant World",
-      image: "https://i.imgur.com/qkKy8.jpg",
+      image:
+        "https://default-vessel.s3.ap-south-1.amazonaws.com/avagam-bucket/plant-world.png",
       link: "plant-world",
     },
     {
       id: 2,
-      name: "working",
-      image: "https://i.imgur.com/qkKy8.jpg",
+      name: "working...",
+      image:
+        "https://aakaar.s3.ap-south-1.amazonaws.com/textures/Default/default-image.jpg",
       link: "plant-world",
     },
   ];
@@ -23,7 +25,10 @@ function HomePage() {
       <Container>
         {List.map((o) => (
           <Link to={`/project/${o.link}`} key={o.id}>
-            <CardBox key={o.id}>{o.name}</CardBox>
+            <CardBox key={o.id}>
+              <Image src={o.image} />
+              <Text>{o.name}</Text>
+            </CardBox>
           </Link>
         ))}
       </Container>
@@ -44,11 +49,16 @@ const Container = styled.div`
   gap: 2.2rem;
   grid-auto-flow: dense;
   padding: 2rem;
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
 `;
 
 const CardBox = styled.div`
   background: #fff;
-  padding: 2rem;
+  padding: 0.4rem;
   height: 140px;
   display: flex;
   align-items: center;
@@ -58,5 +68,20 @@ const CardBox = styled.div`
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
-  /* box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; */
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+`;
+
+const Image = styled.img`
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+`;
+
+const Text = styled.div`
+  width: 100%;
+  font-size: 12px;
+  text-decoration: none;
+  margin-top: 10px;
 `;
