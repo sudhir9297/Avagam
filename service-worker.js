@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Avagam/precache-manifest.0ad56da1fea534a3549cda3e20c5b05d.js"
+  "/Avagam/precache-manifest.881ece4f4ee55e8c62268ae0648be4fd.js"
 );
 
 workbox.clientsClaim();
