@@ -115,7 +115,7 @@ function Carousel() {
       renderItem: (
         <CardBoxWrapper isActive={o.id === active}>
           <BackgroundCard isActive={o.id === active} />
-          <Image src={o.image} isActive={o.id === active} />
+          <Image src={o.image} isActive={o.id === active} draggable={false} />
           <ItemText isActive={o.id === active}>
             <h3>{o.title}</h3>
             <div>{o.desc}</div>
@@ -448,7 +448,7 @@ const Image = styled.img`
   transform-origin: bottom;
   transform: ${({ isActive }) =>
     isActive ? "scale(1.2) translateY(-40px)" : "scale(1) translateY(0px)"};
-
+  user-select: none;
   @media ${device.forMobileOnly} {
     width: 180px;
     height: auto;
@@ -481,6 +481,7 @@ const ItemText = styled.div`
   display: flex;
   flex-direction: column;
   width: 80%;
+  user-select: none;
 
   @media ${device.forMobileOnly} {
     bottom: 10%;
